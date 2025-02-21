@@ -2,10 +2,6 @@ body {
     background-color: skyblue;
 }
 
-.container1 {
-    /* border: solid */
-}
-
 .sun {
     z-index: 2;
     position: absolute;
@@ -33,9 +29,10 @@ body {
     display: flex;
     height: 100px;
     width: 200px;
-    background-color: slategray;
+    background-image: linear-gradient( to bottom, gray, white, slategray, gray, slategray, white);
     margin: 25px;
     border-radius: 50%;
+    animation: infinite; 
 }
 
 
